@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.text_box {
+    width: 100%;
+    height: 50%;
+    border: 1px solid rgb(255, 247, 247);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#container {
+    width: 60%;
+    height: auto;
+    min-height: 300px;
+    background-color: rgb(118, 113, 113);
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#undo, #clear {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100px;
+    align-self: center;
+}
